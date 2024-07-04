@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API - Claudia Vargas </title>
+    <link rel="stylesheet" href="">
+</head>
+
+
+<body>
+
+    <section>
+        <h1>Conversor de moneda Nacional</h1>
+<div class="box">
+    <h3>Pesos CLP</h3>
+    <input placeholder="ingrese el monto en CLP" id="monto" type="text">
+    <h4>moneda a convertir:</h4>
+    <select id="cambio">
+        <option selected disabled value="">seleccione moneda</option>
+    </select>
+    <button id="buscar">Buscar</button>
+    <h4 id="resultado"></h4>
+</div>
+
+<div class="sub_box">
+    <canvas id="grafico"></canvas>
+</div>
+
+    </section>
+    <!-- Scripts -->
+     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+     <script src="./assets/js/script.js" type="module"></script>
+    
+</body>
+</html>
